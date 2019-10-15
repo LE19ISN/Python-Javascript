@@ -1,0 +1,4 @@
+masse =65
+gravité =9.8
+p = masse*gravité
+print (p)
