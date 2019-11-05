@@ -9,4 +9,4 @@ elif imc<18.5:
     print("Voues êtes trop maigre.")
 else:
     print("Vous avez une corpulence normale.")
-    print imc
+    print:(imc)
