@@ -1,0 +1,18 @@
+
+def LaBouleQuiRoule(): 
+        print('quelle  est votre coefficient directeur')
+        a=int (input())
+        print('quelle est votre ordonné a x=0?')
+        b=int(input())
+        return a,b
+def LaBouleMagique(a,b):
+    y=(a)*x+(b)
+    return (y)
+def LaBouleCarrer(y):
+    print(y)
+
+
+a,b=LaBouleQuiRoule()
+for x in range(0,10):
+    y=LaBouleMagique(a,b)
+    LaBouleCarrer(y)
