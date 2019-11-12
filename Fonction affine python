@@ -1,8 +1,7 @@
 print('quelle  est votre coefficient directeur')
 a=int (input())
-print('quelle est votre coefficient directeur?')
-b=int(input())
 print('quelle est votre ordonné a x=0?')
+b=int(input())
 for x in range(0,10):
     f=a*x+b
     print(f)
