@@ -1,13 +1,15 @@
-
+#Demande du coefficient directeur et de l'ordonné a l'origine. Avec a et b deux nombre réel 
 def LaBouleQuiRoule(): 
         print('quelle  est votre coefficient directeur')
         a=int (input())
         print('quelle est votre ordonné a x=0?')
         b=int(input())
         return a,b
+#CALCUL. Pour ce calcul on as besoin des deux nombre réel a et b demandé avant  
 def LaBouleMagique(a,b):
     y=(a)*x+(b)
     return (y)
+#Affichage du résultat de l'équation y=ax+b avec a et b deux réel définit dans LaBouleQuiRoule
 def LaBouleCarrer(y):
     print(y)
 
