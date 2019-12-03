@@ -1,0 +1,22 @@
+def LaBouleQuiRoule():
+        e=0
+        print ( 'Veuillez entrer deux valeurs et ce programme va alors trouver tous les multiples de 5 entre les deux chiffre et puis va tous additionner')
+        print('Choisissez le plus petit nombre des deux ')
+        a=int (input())
+        print('Choisissez le plus grand des deux nombres')
+        b=int(input())        
+        return a,b,e  
+def LaBouleMagique(a,b,e):
+        for x in range (a,b):
+                y = x % 5
+                if y==0:
+                    e=e+x
+        return y,x,e
+
+def LaBouleCarrer(e):
+    print('le total est',e)
+
+
+a,b,e=LaBouleQuiRoule()
+y,x,e=LaBouleMagique(a,b,e)
+LaBouleCarrer(e)
