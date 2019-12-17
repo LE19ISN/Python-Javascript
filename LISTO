@@ -1,0 +1,12 @@
+a='THE WORLDOOO'
+print (a[3])
+for c in a:
+    print(c)
+print(len(a))
+
+print('Bonsoir écrivez la phrase que vous voulez écrire')
+txt=(input())
+hello=txt.split()
+print('IL Y A',len(hello),"MOTS")
+Brando = sorted (hello, key=len)
+print(Brando[-1])
